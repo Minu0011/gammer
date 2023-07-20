@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header style */
+header{
+    background: #FFF;
+    padding: 37px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gammer{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+/* features style */
+
+.features{
+    display: flex;
+}
+.features-title .span-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+}
+.features-content .features-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+}
+.features-image{
+
+}
+
+/* Heading */
+/* .banner {
+      background-image: url("image.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    } */
+    /* card section */
+
+.section-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.section-subtitle{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: left;
+    margin-top: 40px;
+}
+.card{
+    width: 342px;
+    height: 400px;
+}
+.card-image{
+    border-radius: 16px;
+    width: 342px;
+    height: 400px;
+    /* background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; */
+}
+/* facts style */
+.facts-a-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.facts-a-container .a-title{
+    border-radius: 50px;
+    background: #FFF;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.facts-a-container .a{
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    gap: 16px;
+}
+/* features style */
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 240px;
+}
