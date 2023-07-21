@@ -1,0 +1,137 @@
+@media (max-width: 425px) {
+  .container {
+    margin: 0 20px;
+  }
+
+  .btn {
+    padding: 5px 10px;
+    border-radius: 48px;
+    font-size: 16px;
+  }
+  .sm-w-100 {
+    width: 100px;
+  }
+  .sm-w-200 {
+    width: 200px;
+  }
+  .sm-p-10 {
+    padding: 10px;
+  }
+  .sm-p-20 {
+    padding: 20px;
+  }
+  .sm-mt-20 {
+    margin-top: 20px;
+  }
+  .sm-flex {
+    display: flex;
+  }
+  .sm-block {
+    display: block;
+  }
+  .sm-flex-column {
+    flex-direction: column;
+  }
+  .sm-flex-column-reverse {
+    flex-direction: column-reverse;
+  }
+  .sm-justify-center {
+    justify-content: center;
+  }
+  .sm-justify-around {
+    justify-content: space-around;
+  }
+  .sm-justify-between {
+    justify-content: space-between;
+  }
+  .sm-item-center {
+    align-items: center;
+  }
+  .sm-gap-20 {
+    gap: 20px;
+  }
+  .sm-mx-auto {
+    margin: 0 auto;
+  }
+  .sm-text-center {
+    text-align: center;
+  }
+
+  .image-container img {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .banner h1 {
+    font-size: 50px;
+  }
+  .feature img {
+    width: 300px;
+  }
+
+  .card {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .w-600 {
+    width: 300px;
+  }
+
+  .corner-img {
+    width: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+
+
+  .category {
+    width: 28%;
+    padding: 1px 2px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+  }
+  .category:hover {
+    border: 1px solid #f948b2;
+  }
+  .category img {
+    width: 20px;
+    height: 20px;
+  }
+  .category h2 {
+    color: #0b0223;
+    font-size: 10px;
+  }
+  .footer{
+    padding: 20px;
+  }
+  .footer-heading{
+    gap: 3px;
+    
+  
+  }
+  .footer-list{
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+  
+  }
+  .footer-list li a{
+    font-size: 12px;
+  
+  }
+  .footer-img{
+    grid-template-columns: repeat(3, 30px);
+    gap: 20px;
+  }
+  .footer-img img{
+    width: 30px;
+  
+  }
+  .list-bottom{
+    grid-template-columns: repeat(2,auto);
+    font-size: 7px;
+    gap: 10px;
+  }
+  .copyright{
+    font-size: 10px;
+  }
+}
+
